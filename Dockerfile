@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
+
 #设置时区
 RUN apk --no-cache add tzdata  && \
     ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
